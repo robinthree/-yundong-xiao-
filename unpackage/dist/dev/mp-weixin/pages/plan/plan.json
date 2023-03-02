@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "饮食计划",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffd700",
+  "usingComponents": {
+    "o-row": "/uni_modules/o-row/components/o-row/o-row",
+    "o-col": "/uni_modules/o-row/components/o-col/o-col"
+  }
+}

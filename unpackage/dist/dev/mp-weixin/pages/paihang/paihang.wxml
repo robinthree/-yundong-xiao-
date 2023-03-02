@@ -1,0 +1,1 @@
+<view style="padding:20rpx 0;"><zetank-rank vue-id="b4092d2c-1" rankData="{{rankData}}" bind:__l="__l"></zetank-rank></view>

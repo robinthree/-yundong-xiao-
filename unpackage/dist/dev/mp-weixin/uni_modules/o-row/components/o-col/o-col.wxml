@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="{{[Span,Offset,Cols]}}" style="{{(Gutter)}}" bindtap="__e"><block wx:if="{{bgClass||bgStyle}}"><view class="{{['bgc',bgClass]}}" style="{{(Radius+bgStyle)}}"><slot></slot></view></block><block wx:else><slot></slot></block></view>

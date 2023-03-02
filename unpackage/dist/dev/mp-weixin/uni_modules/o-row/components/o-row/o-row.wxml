@@ -1,0 +1,1 @@
+<view class="{{['row',Cols,Justify,Align]}}" style="{{'margin-left:'+(-gutter+'rpx')+';'+('margin-right:'+(-gutter+'rpx')+';')}}"><slot></slot></view>

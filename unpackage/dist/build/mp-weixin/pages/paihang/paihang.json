@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "排行",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#ffd700",
+  "usingComponents": {
+    "zetank-rank": "/uni_modules/zetank-rank/components/zetank-rank/zetank-rank"
+  }
+}

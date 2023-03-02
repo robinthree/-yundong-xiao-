@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/plan/plan",
+    "pages/paihang/paihang",
+    "pages/daka/daka",
+    "pages/modify/modify",
+    "pages/food/food"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/plan/plan",
+        "iconPath": "static/plan1.png",
+        "selectedIconPath": "static/plan2.png",
+        "text": "计划"
+      },
+      {
+        "pagePath": "pages/paihang/paihang",
+        "iconPath": "static/paihang1.png",
+        "selectedIconPath": "static/paihang2.png",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/food/food",
+        "iconPath": "static/food1.png",
+        "selectedIconPath": "static/food2.png",
+        "text": "食物热量"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

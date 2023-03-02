@@ -1,0 +1,106 @@
+{
+
+	// "easycom": {
+	//         "autoscan": true,
+	//         "custom": {
+	//             // uni-ui 规则如下配置
+	//             "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+	//         }
+	//     },
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+			}
+
+		},
+		{
+			"path": "pages/plan/plan",
+			"style": {
+				"navigationBarTitleText": "饮食计划",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+
+			}
+
+		}, {
+			"path": "pages/paihang/paihang",
+			"style": {
+				"navigationBarTitleText": "排行",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+			}
+
+		},
+		{
+			"path": "pages/daka/daka",
+			"style": {
+				"navigationBarTitleText": "运动打卡",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+			}
+
+		},
+		{
+			"path": "pages/modify/modify",
+			"style": {
+				"navigationBarTitleText": "修改资料",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+			}
+
+		},
+		{
+			"path": "pages/food/food",
+			"style": {
+				"navigationBarTitleText": "热量查询",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ffd700"
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/plan/plan",
+				"iconPath": "static/plan1.png",
+				"selectedIconPath": "static/plan2.png",
+				"text": "计划"
+			},
+			{
+				"pagePath": "pages/paihang/paihang",
+				"iconPath": "static/paihang1.png",
+				"selectedIconPath": "static/paihang2.png",
+				"text": "排行"
+			},
+			{
+				"pagePath": "pages/food/food",
+				"iconPath": "static/food1.png",
+				"selectedIconPath": "static/food2.png",
+				"text": "食物热量"
+			}, {
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/mine.png",
+				"text": "我的"
+			}
+		]
+	},
+
+
+	"uniIdRouter": {}
+}

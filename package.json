@@ -1,0 +1,24 @@
+{
+    "id": "jianfei",
+    "name": "减肥",
+    "version": "1.0.2",
+    "description": "很简单的减肥小程序.",
+    "keywords": [
+        "打卡",
+        "查询",
+        "排行",
+        "计划",
+        "计算"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    },
+    "dependencies": {
+        "install": "^0.13.0",
+        "npm": "^9.2.0",
+        "wx-server-sdk": "^2.6.3"
+    }
+}
